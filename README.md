@@ -1,40 +1,62 @@
-<style>
-  .art-name-container {
+<div align="center">
+  <div style="
     perspective: 500px;
     margin-bottom: 30px;
-  }
-  .art-name {
-    font-family: 'Brush Script MT', cursive;
-    font-size: 4rem;
-    background: linear-gradient(45deg, #ff3366, #33ccff, #ffcc33, #33ff66);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    text-shadow: 0 0 10px rgba(255,255,255,0.8);
-    animation: float 3s ease-in-out infinite, colorChange 8s linear infinite;
-    transform-style: preserve-3d;
-    display: inline-block;
-    padding: 15px 30px;
-    border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
     position: relative;
-    overflow: hidden;
-  }
-  .art-name::before {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: linear-gradient(
-      to bottom right,
-      rgba(255,255,255,0.2),
-      rgba(255,255,255,0)
-    );
-    transform: rotate(30deg);
-    animation: shine 3s ease-in-out infinite;
-  }
+  ">
+    <div style="
+      font-family: 'Brush Script MT', cursive;
+      font-size: 4rem;
+      background: linear-gradient(45deg, #ff3366, #33ccff, #ffcc33, #33ff66);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      text-shadow: 0 0 10px rgba(255,255,255,0.8);
+      display: inline-block;
+      padding: 15px 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+      position: relative;
+      overflow: hidden;
+      transform: translateY(0) rotateY(0);
+      animation: 
+        3s ease-in-out infinite float,
+        8s linear infinite colorChange;
+    ">AnDaoAi</div>
+    
+    <div style="
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: #ff3366;
+      border-radius: 50%;
+      top: 10px;
+      left: 20px;
+      opacity: 0.7;
+      animation: 2s ease-in-out infinite float;
+    "></div>
+    
+    <div style="
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: #ff3366;
+      border-radius: 50%;
+      bottom: 10px;
+      right: 20px;
+      opacity: 0.7;
+      animation: 2s ease-in-out 0.5s infinite float;
+    "></div>
+  </div>
+  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/andaoai/andaoai/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/andaoai/andaoai/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/andaoai/andaoai/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+<style>
   @keyframes float {
     0%, 100% {
       transform: translateY(0) rotateY(0);
@@ -47,43 +69,7 @@
     0% { filter: hue-rotate(0deg); }
     100% { filter: hue-rotate(360deg); }
   }
-  @keyframes shine {
-    0% { left: -50%; }
-    100% { left: 150%; }
-  }
-  .decoration {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: #ff3366;
-    border-radius: 50%;
-    animation: float 2s ease-in-out infinite;
-    opacity: 0.7;
-  }
-  .decoration:nth-child(1) {
-    top: 10px;
-    left: 20px;
-    animation-delay: 0s;
-  }
-  .decoration:nth-child(2) {
-    bottom: 10px;
-    right: 20px;
-    animation-delay: 0.5s;
-  }
 </style>
-
-<div align="center">
-  <div class="art-name-container">
-    <div class="art-name">AnDaoAi</div>
-    <div class="decoration"></div>
-    <div class="decoration"></div>
-  </div>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/andaoai/andaoai/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/andaoai/andaoai/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/andaoai/andaoai/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
 
 ## 🛠️ 技术栈
 
