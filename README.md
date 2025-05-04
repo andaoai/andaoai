@@ -1,75 +1,23 @@
+<h1 align="center">
+  <span style="
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3.5rem;
+    background: linear-gradient(45deg, #ff3366, #33ccff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    padding: 10px 20px;
+  ">AnDaoAi</span>
+</h1>
+
 <div align="center">
-  <div style="
-    perspective: 500px;
-    margin-bottom: 30px;
-    position: relative;
-  ">
-    <div style="
-      font-family: 'Brush Script MT', cursive;
-      font-size: 4rem;
-      background: linear-gradient(45deg, #ff3366, #33ccff, #ffcc33, #33ff66);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-      text-shadow: 0 0 10px rgba(255,255,255,0.8);
-      display: inline-block;
-      padding: 15px 30px;
-      border-radius: 20px;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-      position: relative;
-      overflow: hidden;
-      transform: translateY(0) rotateY(0);
-      animation: 
-        3s ease-in-out infinite float,
-        8s linear infinite colorChange;
-    ">AnDaoAi</div>
-    
-    <div style="
-      position: absolute;
-      width: 20px;
-      height: 20px;
-      background: #ff3366;
-      border-radius: 50%;
-      top: 10px;
-      left: 20px;
-      opacity: 0.7;
-      animation: 2s ease-in-out infinite float;
-    "></div>
-    
-    <div style="
-      position: absolute;
-      width: 20px;
-      height: 20px;
-      background: #ff3366;
-      border-radius: 50%;
-      bottom: 10px;
-      right: 20px;
-      opacity: 0.7;
-      animation: 2s ease-in-out 0.5s infinite float;
-    "></div>
-  </div>
-  
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/andaoai/andaoai/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/andaoai/andaoai/output/github-contribution-grid-snake.svg">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/andaoai/andaoai/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
-
-<style>
-  @keyframes float {
-    0%, 100% {
-      transform: translateY(0) rotateY(0);
-    }
-    50% {
-      transform: translateY(-10px) rotateY(10deg);
-    }
-  }
-  @keyframes colorChange {
-    0% { filter: hue-rotate(0deg); }
-    100% { filter: hue-rotate(360deg); }
-  }
-</style>
 
 ## 🛠️ 技术栈
 
