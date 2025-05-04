@@ -1,4 +1,27 @@
+<style>
+  .art-name {
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    background: linear-gradient(45deg, #ff3366, #33ccff, #ffcc33);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    animation: glow 2s ease-in-out infinite alternate;
+    margin-bottom: 20px;
+  }
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff3366, 0 0 20px #ff3366;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #33ccff, 0 0 40px #33ccff;
+    }
+  }
+</style>
+
 <div align="center">
+  <div class="art-name">AnDaoAi</div>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/andaoai/andaoai/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/andaoai/andaoai/output/github-contribution-grid-snake.svg">
