@@ -19,7 +19,17 @@
   </picture>
 </div>
 
-## 🛠️ 技术栈
+## 👋 自我介绍
+
+欢迎来到我的个人主页！我是 **AnDaoAi**，一个热爱技术的开发者和AI研究者。本人已工作5年，目前在一家小公司，做视觉算法相关的工作。有兴趣可以添加微信互相了解。
+
+
+**微信**: AnDaoAi-Z 
+
+
+
+<details>
+<summary><h2 style="display: inline;">🛠️ 技术栈</h2></summary>
 
 ### 编程语言
 <div align="left">
@@ -113,12 +123,14 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" height="20" alt="raspberrypi logo"  />
 </div>
 
+</details>
+
 
 
 ---
 
-## 📋 模型学习记录
-
+<details>
+<summary><h2 style="display: inline;">📋 模型学习记录</h2></summary>
 
 | 模型名称 | 描述 | 实践验证记录 |
 |---------|-----|------------|
@@ -134,4 +146,6 @@
 | [🔜 CLIP](https://github.com/openai/CLIP) | 🖼️ 多模态视觉语言模型 | 🔗 [待实现]<br>⏳ 计划学习模型调用方法 |
 | [🔜 SAM2](https://github.com/facebookresearch/segment-anything) | 🔍 SAM升级版本 | 🔗 [待实现]<br>⏳ 跟踪最新版本特性 |
 | <br>🔜 [待添加]<br><br> | <br>[待描述]<br><br> | <br>🔗 [待实现]<br>⏳ 计划学习领域<br><br> |
+
+</details>
 
